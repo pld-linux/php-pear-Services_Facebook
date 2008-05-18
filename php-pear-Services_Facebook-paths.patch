@@ -1,0 +1,11 @@
+--- Services_Facebook-0.1.0/usr/share/pear/Services/Facebook/MarketPlace.php~	2008-05-18 09:29:35.096395321 +0200
++++ Services_Facebook-0.1.0/usr/share/pear/Services/Facebook/MarketPlace.php	2008-05-18 10:01:32.831407329 +0200
+@@ -20,7 +20,7 @@
+  * @link      http://pear.php.net/package/Services_Facebook
+  */
+ 
+-require_once 'MarketPlace/Listing.php';
++require_once 'Services/Facebook/MarketPlace/Listing.php';
+ 
+ /**
+  * Facebook Marketplace Interface
