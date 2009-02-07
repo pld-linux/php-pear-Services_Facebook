@@ -6,12 +6,12 @@
 Summary:	%{_pearname} - PHP interface to Facebook's API
 Summary(pl.UTF-8):	%{_pearname} - interfejs PHP do API Facebook
 Name:		php-pear-%{_pearname}
-Version:	0.2.3
+Version:	0.2.4
 Release:	1
 License:	New BSD License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	c102b8ebbbb80af85111430c4efd706c
+# Source0-md5:	f7387cad89f29fbe98547f2e2e91c9a0
 Patch0:		%{name}-paths.patch
 URL:		http://pear.php.net/package/Services_Facebook/
 BuildRequires:	php-pear-PEAR
