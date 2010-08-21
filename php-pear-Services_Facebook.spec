@@ -1,19 +1,17 @@
 %include	/usr/lib/rpm/macros.php
-%define		_class		Services
-%define		_subclass	Facebook
 %define		_status		alpha
 %define		_pearname	Services_Facebook
 Summary:	%{_pearname} - PHP interface to Facebook's API
 Summary(pl.UTF-8):	%{_pearname} - interfejs PHP do API Facebook
 Name:		php-pear-%{_pearname}
 Version:	0.2.14
-Release:	1
+Release:	2
 License:	New BSD License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	fb7b77b23e74bde284d287548f40cb51
 URL:		http://pear.php.net/package/Services_Facebook/
-BuildRequires:	php-pear-PEAR
+BuildRequires:	php-pear-PEAR >= 1:1.4.0
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear
 Requires:	php-pear-PEAR-core >= 1:1.4.0
