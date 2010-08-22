@@ -13,6 +13,7 @@ Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 URL:		http://pear.php.net/package/Services_Facebook/
 BuildRequires:	php-pear-PEAR >= 1:1.4.0
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
+BuildRequires:	rpmbuild(macros) >= 1.300
 Requires:	php-pear
 Requires:	php-pear-PEAR-core >= 1:1.4.0
 Requires:	php-pear-Validate >= 0.0.2
@@ -21,12 +22,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 An interface for accessing Facebook's web services API at
-http://api.facebook.com.
+<http://api.facebook.com>.
 
 In PEAR status of this package is: %{_status}.
 
 %description -l pl.UTF-8
-Interfejs dostępowy do usług Facebook (http://api.facebook.com/).
+Interfejs dostępowy do usług Facebook <http://api.facebook.com/>.
 
 Ta klasa ma w PEAR status: %{_status}.
 
